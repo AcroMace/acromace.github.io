@@ -1,0 +1,73 @@
+.body {
+	color: #2e3436;
+	font-weight: 300;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+.jumbotron {
+	color: #eeeeec;
+	background-color: #204a87;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	letter-spacing: -2px;
+}
+
+.jumbotron h5 {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 400;
+	opacity: 0.75;
+}
+
+.intro-text {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 20px;
+}
+
+.intro-text h1 {
+	letter-spacing: -1px;
+	font-size: 3em;
+}
+
+.intro-text p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 300;
+}
+
+h1 {
+	font-weight: 300;
+}
+
+.col-lg-12 {
+	margin-left: 40%;
+}
+
+.projects img {
+	border-radius: 0.3em;
+	width: 100%;
+}
+
+.project {
+	margin-bottom: 20px;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 128px;
+	width: 128px;
+	border-radius: 100%;
+	box-shadow: 0 0 0 0.618em rgba(0, 0, 0, 0.05);
+}
+
+#site-title {
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
