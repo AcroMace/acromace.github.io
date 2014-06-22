@@ -80,5 +80,12 @@ h1 {
 	margin-bottom: 10px;
 }
 
-
+.desktop-screenshot {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
