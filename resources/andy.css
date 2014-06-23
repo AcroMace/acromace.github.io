@@ -81,7 +81,17 @@ h1 {
 }
 
 .phone-screenshot {
-	width: 320px;
+	width: 80%;
+	max-width: 320px;
+}
+
+.phone-screenshot-caption {
+	font-style: italic;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	max-width: 300px;
+	color: #888a85;
 }
 
 .image-landscape {
