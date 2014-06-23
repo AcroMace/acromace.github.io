@@ -51,6 +51,7 @@ h1 {
 .projects img {
 	border-radius: 0.3em;
 	width: 100%;
+	max-width: 800px;
 }
 
 .project {
@@ -71,8 +72,7 @@ h1 {
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-.phone-screenshot {
-	width: 320px;
+.description img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -80,12 +80,35 @@ h1 {
 	margin-bottom: 10px;
 }
 
-.desktop-screenshot {
-	width: 80%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
+.phone-screenshot {
+	width: 320px;
 }
+
+.image-landscape {
+	width: 90%;
+}
+
+.image-landscape-caption {
+	font-style: italic;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: #888a85;
+}
+
+.image-landscape-small {
+	width: 50%;
+}
+
+.image-landscape-small-caption {
+	font-style: italic;
+	margin-left: 28%;
+	margin-right: 28%;
+	color: #888a85;
+}
+
+.image-portrait {
+	max-width: 50%;
+}
+
+
 
