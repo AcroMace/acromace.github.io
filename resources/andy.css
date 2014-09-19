@@ -1,10 +1,14 @@
+html {
+	/* Gets rid of the white line at the bottom of the page */
+	background-color: #2e3436;
+}
+
 body {
 	color: #2e3436;
 	font-weight: 300;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-	margin-bottom: 20px;
 }
 
 h1 {
@@ -16,9 +20,8 @@ hr {
 	margin-bottom: 30px;
 }
 
-.col-lg-12 {
-	margin-left: 40%;
-}
+
+/* Header */
 
 #logo {
 	display: block;
@@ -33,6 +36,9 @@ hr {
 #site-title {
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
+
+
+/* Intro text */
 
 .jumbotron {
 	color: #eeeeec;
@@ -54,7 +60,7 @@ hr {
 .intro-text {
 	margin-left: 5%;
 	margin-right: 5%;
-	margin-bottom: 20px;
+	padding-bottom: 50px;
 }
 
 .intro-text h1 {
@@ -68,15 +74,65 @@ hr {
 	font-weight: 300;
 }
 
-.projects img {
-	border-radius: 0.3em;
-	width: 100%;
-	max-width: 800px;
-}
+/* Front page projects */
 
 .project {
-	margin-bottom: 20px;
+	position: relative;
+	box-shadow: 0 0 1px black;
+	-moz-box-shadow: 0 0 1px black;
+	-webkit-box-shadow: 0 0 1px black;
 }
+
+.project:first-child {
+	box-shadow: 0 0;
+	-moz-box-shadow: 0 0;
+	-webkit-box-shadow: 0 0;
+}
+
+.project .description {
+	color: #eeeeec;
+}
+
+.project img {
+	color: #eeeeec;
+	margin-top: 5%; /* Stops the floating devices */
+	width: 100%;
+}
+
+#project-waterloo {
+	background-color: #fcd450;
+}
+
+#project-waterloo .description {
+	color: #2e3436;
+}
+
+#project-pi-day {
+	background-color: #d11936;
+}
+
+#project-tolmun {
+	background-color: #008363;
+}
+
+#project-tolmun .description {
+	color: #9ae8b8;
+}
+
+#project-world-painter {
+	background-color: #3465a4;
+}
+
+#project-math-magician {
+	background-color: #245840;
+}
+
+#project-hyper-halo {
+	background-color: #2e3436;
+}
+
+
+/* Project descriptions */
 
 .description p, li, blockquote {
 	margin-top: 15px;
@@ -98,6 +154,9 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+
+/* Media in project descriptions */
 
 .phone-screenshot {
 	width: 80%;
