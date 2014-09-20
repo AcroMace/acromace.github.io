@@ -3,8 +3,7 @@ html {
 	background-color: #2e3436;
 }
 
-body {
-	color: #2e3436;
+body, p {
 	font-weight: 300;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	text-rendering: optimizeLegibility;
@@ -38,12 +37,13 @@ hr {
 }
 
 
-/* Intro text */
+/* Jumbotron */
 
 .jumbotron {
 	color: #eeeeec;
 	background-color: #204a87;
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 .jumbotron h1 {
@@ -57,22 +57,28 @@ hr {
 	opacity: 0.75;
 }
 
-.intro-text {
-	margin-left: 5%;
-	margin-right: 5%;
-	padding-bottom: 50px;
+
+/* Contact icons */
+
+.contact {
+	width: 100%;
+	background-color: white;
+	padding-bottom: 10px;
 }
 
-.intro-text h1 {
-	letter-spacing: -1px;
-	font-size: 3em;
+.contact p {
+	font-size: 1.5em;
+	margin-left: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: inline;
 }
 
-.intro-text p {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-weight: 300;
+.btn-contact {
+	border: 0;
+	width: 100%;
 }
+
 
 /* Front page projects */
 
