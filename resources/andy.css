@@ -100,13 +100,15 @@ hr {
 }
 
 .project img {
-	color: #eeeeec;
-	/*margin-top: 5%;  Stops the floating devices */
 	width: 100%;
 }
 
 #project-whistlesheet {
 	background-color: #2c3e50;
+}
+
+#project-whistlesheet .description {
+	color: #ecf0f1;
 }
 
 #project-kuiz {
@@ -171,6 +173,33 @@ hr {
 	margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+
+/* Fix for floating images */
+/* Fix the image to the bottom of the container */
+
+/* Boostrap small size */
+@media(min-width:768px) {
+	.projects .project-image-wrapper {
+		height: 260px;
+		min-height: 260px;
+	}
+	.project img {
+		position: absolute;
+		bottom: 0;
+	}
+}
+
+/* Boostrap Medium size is 992 */
+@media(min-width: 1100px) {
+	.projects .project-image-wrapper {
+		height: 100%;
+		min-height: 100%;
+	}
+	.project img {
+		position: relative;
+	}
 }
 
 
