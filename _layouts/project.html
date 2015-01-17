@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="I make things">
+      <meta name="author" content="Andy Cho">
+      <title>{{ page.title }} / Andy Cho</title>
+      <link rel="shortcut icon" href="{{ site.baseurl }}/resources/favicon.ico">
+      <link href="{{ site.baseurl }}/resources/bootstrap.min.css" rel="stylesheet">
+      <link href="{{ site.baseurl }}/resources/andy.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="jumbotron">
+            <div class="container">
+                <img src="{{ site.baseurl }}/resources/logo.png" id="logo"/>
+                <h1>Andy Cho</h1>
+                <h5>I make things</h5>
+            </div>
+        </div>
+
+        <div class="title">
+            <div class="container">
+                <h1>{{ page.title }}</h1>
+            </div>
+        </div>
+
+        <div class="description">
+            <div class="container">
+                <div class="col-md-12">
+
+                    <p>{{ content }}</p>
+
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
