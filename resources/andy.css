@@ -108,6 +108,11 @@ hr {
 	margin-left: 0;
 }
 
+#project-receptionkit {
+	color: white;
+	background-color: #C62828;
+}
+
 #project-quizzily {
 	color: #e0f2f1;
 	background-color: #00796b;
