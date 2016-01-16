@@ -1,166 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<meta name="description" content="I make things">
-    	<meta name="author" content="Andy Cho">
-        <meta property="og:image" content="http://acromace.com/resources/linkedin.png">
-    	<title>Andy Cho / I make things</title>
-    	<link rel="shortcut icon" href="resources/favicon.ico">
-    	<link href="resources/bootstrap.min.css" rel="stylesheet">
-        <link href="resources/fa/css/font-awesome.min.css" rel="stylesheet">
-    	<link href="resources/andy.css" rel="stylesheet">
-	</head>
+---
+layout: default
+---
 
-	<body>
-		<div class="jumbotron">
-            <div class="container">
-                <img src="resources/logo.png" id="logo"/>
-                <h1>Andy Cho</h1>
-                <h5>I make things</h5>
-            </div>
-        </div>
+{% include contact_bar.html %}
 
-        <div class="container contact">
-            <div class="col-sm-4">
-                <a href="http://github.com/acromace">
-                    <div type="button" class="btn btn-default btn-contact">
-                        <i class="fa fa-github-alt fa-2x"></i> <p>acromace</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-4">
-                <a href="mailto:contact@andycho.ca">
-                    <div type="button" class="btn btn-default btn-contact">
-                        <i class="fa fa-envelope fa-2x"></i> <p>contact@andycho.ca</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-4">
-                <a href="http://ca.linkedin.com/in/acromace/">
-                    <div type="button" class="btn btn-default btn-contact">
-                        <i class="fa fa-linkedin fa-2x"></i> <p>acromace</p>
-                    </div>
-                </a>
-            </div>
-        </div>
+<div class="projects">
 
-        <div class="projects">
-            <div class="project col-xs-12" id="project-quizzily">
-                <div class="col-xs-12 col-sm-6 col-md-push-6">
-                    <div class="description">
-                        <h1>Quizzily</h1>
-                        <h5><em>2015</em> - iPhone app</h5>
-                        <p>iOS app written in <strong>Swift</strong> using Quizlet's <strong>RESTful API</strong> with Alamofire and storing question sets with <strong>Core Data</strong>.</p>
-                        <a href="https://itunes.apple.com/ca/app/quizzily/id982813634">
-                            <img class="app-store-icon" src="/assets/button/app-store.svg"/>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-pull-6">
-                    <a href="http://acromace.com/quizzily/">
-                        <div class="project-image-wrapper">
-                            <img src="/assets/button/quizzily.png"/>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project col-xs-12" id="project-receptionkit">
-                <div class="col-xs-12 col-sm-6">
-                    <div class="description">
-                        <h1>ReceptionKit</h1>
-                        <h5><em>2015</em> - iPad app</h5>
-                        <p>A simple, customizable receptionist <strong>iPad app</strong> powered by SupportKit and written in <strong>Swift</strong>. Made for Radialpoint's 9th hackathon.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                    <a href="http://acromace.com/receptionkit/">
-                        <div class="project-image-wrapper">
-                            <img src="/assets/button/receptionkit.png"/>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project col-xs-12" id="project-bett">
-                <div class="col-xs-12 col-sm-6 col-md-push-6">
-                    <div class="description">
-                        <h1>BETT</h1>
-                        <h5><em>2014</em> - Unity game</h5>
-                        <p>Local multiplayer <strong>game</strong> written in <strong>Unity</strong> with <strong>C#</strong>. Basketball game played with eggs on a trampoline. Made for the 2014 Fall GI Jam.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-pull-6">
-                    <a href="http://acromace.com/BETT/">
-                        <div class="project-image-wrapper">
-                            <img src="/assets/button/bett.png"/>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project col-xs-12" id="project-whistlesheet">
-                <div class="col-xs-12 col-sm-6">
-                    <div class="description">
-                        <h1>WhistleSheet</h1>
-                        <h5><em>2014</em> - Flask web app</h5>
-                        <p>Web app written in <strong>Python</strong> with <strong>Flask</strong> and <strong>jQuery</strong>. Takes whistling audio with <strong>Recorder.js</strong> and outputs a PDF with <strong>LilyPond</strong> or a <strong>MusicXML</strong> file.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                    <a href="http://acromace.pythonanywhere.com/">
-                        <div class="project-image-wrapper">
-                            <img src="/assets/button/whistlesheet.png"/>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project col-xs-12" id="project-kuiz">
-                <div class="col-xs-12 col-sm-6 col-md-push-6">
-                    <div class="description">
-                        <h1>Kuiz</h1>
-                        <h5><em>2014</em> - Flask game</h5>
-                        <p>Trivia game written in <strong>Python</strong> with <strong>Flask</strong> and <strong>jQuery</strong>. Receives answers from Kik with <strong>WebHooks</strong> and updates in real time with <strong>WebSockets</strong>. Uses <strong>BeautifulSoup</strong> to scrape profile pictures</strong> and <strong>MongoDB</strong> to store questions.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-pull-6">
-                    <div class="project-image-wrapper">
-                        <img src="/assets/button/kuiz.png"/>
-                    </div>
-                </div>
-            </div>
-            <div class="project col-xs-12" id="project-math-magician">
-                <div class="col-xs-12 col-sm-6">
-                    <div class="description">
-                        <h1>Math Magician</h1>
-                        <h5><em>2011</em> - iPhone app</h5>
-                        <p><strong>iOS</strong> app written in <strong>Objective-C</strong> that solves math problems</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                    <a href="/math-magician">
-                        <div class="project-image-wrapper">
-                            <img src="/assets/button/math-magician.png"/>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project col-xs-12" id="project-hyper-halo">
-                <div class="col-xs-12 col-sm-6 col-md-push-6">
-                    <div class="description">
-                        <h1>HyperHalo</h1>
-                        <h5><em>2010</em> - Visual Basic program</h5>
-                        <p><strong>Windows</strong> program created in <strong>Visual Basic</strong> for modifying Halo</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-pull-6">
-                    <a href="/hyper-halo">
-                        <div class="project-image-wrapper">
-                            <img src="/assets/button/hyper-halo.png"/>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+{% include project_row.html project_id="quizzily" title="Quizzily" year="2015" description_brief="iPhone app" description_long="iOS app written in **Swift** using Quizlet's **RESTful API** with Alamofire and storing question sets with **Core Data**." app_store_link="https://itunes.apple.com/ca/app/quizzily/id982813634" url="http://acromace.com/quizzily/" align="left" %}
+
+{% include project_row.html project_id="receptionkit" title="ReceptionKit" year="2015" description_brief="iPad app" description_long="A simple, customizable receptionist **iPad app** powered by Smooch and written in **Swift**. Made for Radialpoint's 9th hackathon." url="http://acromace.com/receptionkit/" align="right" %}
+
+{% include project_row.html project_id="bett" title="BETT" year="2014" description_brief="Unity game" description_long="Local multiplayer **game** testing written in **Unity** with **C#**. Basketball game played with eggs on a trampoline. Made for the 2014 Fall GI Jam." url="http://acromace.com/BETT/" align="left" %}
+
+{% include project_row.html project_id="whistlesheet" title="WhistleSheet" year="2014" description_brief="Flask web app" description_long="Web app written in **Python** with **Flask** and **jQuery**. Takes whistling audio with **Recorder.js** and outputs a PDF with **LilyPond** or a **MusicXML** file." url="http://acromace.pythonanywhere.com/" align="right" %}
+
+{% include project_row.html project_id="kuiz" title="Kuiz" year="2014" description_brief="Flask game" description_long="Trivia game written in **Python** with **Flask** and **jQuery**. Receives answers from Kik with **WebHooks** and updates in real time with **WebSockets**. Uses **BeautifulSoup** to scrape profile pictures and **MongoDB** to store questions." url="" align="left" %}
+
+{% include project_row.html project_id="math-magician" title="Math Magician" year="2011" description_brief="iPhone app" description_long="**iOS** app written in **Objective-C** that solves math problems" url="/math-magician" align="right" %}
+
+{% include project_row.html project_id="hyper-halo" title="HyperHalo" year="2010" description_brief="Visual Basic program" description_long="**Windows program** created in **Visual Basic** for modifying Halo" url="/hyper-halo" align="left" %}
+
+</div>
