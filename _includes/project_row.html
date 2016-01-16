@@ -1,21 +1,21 @@
 <div class="project col-xs-12" id="project-{{ include.project_id }}">
-    <div class="col-xs-12 col-sm-6 {% if include.align == 'left' %} col-md-push-6 {% endif %}">
-        <div class="description">
-            <h1>{{ include.title }}</h1>
-            <h5><em>{{ include.year }}</em> - {{ include.description_brief }}</h5>
-            <p>{{ include.description_long | markdownify }}</p>
-            {% if include.app_store_link %}
-                <a href="{{ include.app_store_link }}">
-                    <img class="app-store-icon" src="/assets/button/app-store.svg"/>
-                </a>
-            {% endif %}
-        </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 {% if include.align == 'left' %} col-md-pull-6 {% endif %}">
-        <a href="{{ include.url }}">
-            <div class="project-image-wrapper">
-                <img src="{{ site.baseurl }}/assets/button/{{ include.project_id }}.png"/>
-            </div>
+  <div class="col-xs-12 col-sm-6 {% if include.align == 'left' %} col-md-push-6 {% endif %}">
+    <div class="description">
+      <h1>{{ include.title }}</h1>
+      <h5><em>{{ include.year }}</em> - {{ include.description_brief }}</h5>
+      <p>{{ include.description_long | markdownify }}</p>
+      {% if include.app_store_link %}
+        <a href="{{ include.app_store_link }}">
+          <img class="app-store-icon" src="/assets/button/app-store.svg"/>
         </a>
+      {% endif %}
     </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 {% if include.align == 'left' %} col-md-pull-6 {% endif %}">
+    <a href="{{ include.url }}">
+      <div class="project-image-wrapper">
+        <img src="{{ site.baseurl }}/assets/button/{{ include.project_id }}.png"/>
+      </div>
+    </a>
+  </div>
 </div>
