@@ -30,9 +30,17 @@
       {% endif %}
       {% if include.product_hunt_link %}
         <div>
-          <a href="{{ product_hunt_link }}">
+          <a href="{{ include.product_hunt_link }}">
             <img src="/assets/button/product-hunt.png"
               srcset="/assets/button/product-hunt.png 1x, /assets/button/product-hunt@2x.png 2x">
+          </a>
+        </div>
+      {% endif %}
+      {% if include.blog_post_link %}
+        <div>
+          <a href="{{ include.blog_post_link }}">
+            <img src="/assets/button/blog-post.png"
+              srcset="/assets/button/blog-post.png 1x, /assets/button/blog-post@2x.png 2x">
           </a>
         </div>
       {% endif %}
