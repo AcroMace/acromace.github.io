@@ -103,11 +103,6 @@ hr {
 	width: 100%;
 }
 
-.project .description .app-store-icon {
-	position: inline;
-	margin-left: 0;
-}
-
 #project-eggs-break-fast {
 	background-color: #2c3e50;
 }
@@ -166,12 +161,20 @@ hr {
 	margin-bottom: 5px;
 }
 
-.description img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.description a {
+	color: #90CAF9;
+}
+
+/* Call to action buttons below the description */
+
+.call-to-action-buttons {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.call-to-action-buttons div {
+	/* Force the buttons to be on one line, if possible */
+	display: inline-block;
 }
 
 
@@ -191,7 +194,7 @@ hr {
 }
 
 /* Boostrap Medium size is 992 */
-@media(min-width: 1100px) {
+@media(min-width: 1200px) {
 	.projects .project-image-wrapper {
 		height: 100%;
 		min-height: 100%;

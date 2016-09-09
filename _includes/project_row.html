@@ -4,18 +4,44 @@
       <h1>{{ include.title }}</h1>
       <h5><em>{{ include.year }}</em> - {{ include.description_brief }}</h5>
       <p>{{ include.description_long | markdownify }}</p>
-      {% if include.app_store_link %}
-        <a href="{{ include.app_store_link }}">
-          <img class="app-store-icon" src="/assets/button/app-store.svg"/>
-        </a>
+      <div class="call-to-action-buttons">
+      {% if include.launch_page_link %}
+        <div>
+          <a href="{{ include.launch_page_link }}">
+            <img src="/assets/button/launch-page.png"
+              srcset="/assets/button/launch-page.png 1x, /assets/button/launch-page@2x.png 2x">
+          </a>
+        </div>
       {% endif %}
+      {% if include.app_store_link %}
+        <div>
+          <a href="{{ include.app_store_link }}">
+            <img class="app-store-icon" src="/assets/button/app-store.svg"/>
+          </a>
+        </div>
+      {% endif %}
+      {% if include.github_link %}
+        <div>
+          <a href="{{ include.github_link }}">
+            <img src="/assets/button/show-source.png"
+              srcset="/assets/button/show-source.png 1x, /assets/button/show-source@2x.png 2x">
+          </a>
+        </div>
+      {% endif %}
+      {% if include.product_hunt_link %}
+        <div>
+          <a href="{{ product_hunt_link }}">
+            <img src="/assets/button/product-hunt.png"
+              srcset="/assets/button/product-hunt.png 1x, /assets/button/product-hunt@2x.png 2x">
+          </a>
+        </div>
+      {% endif %}
+      </div>
     </div>
   </div>
   <div class="col-xs-12 col-sm-6 {% if include.align == 'left' %} col-md-pull-6 {% endif %}">
-    <a href="{{ include.url }}">
-      <div class="project-image-wrapper">
-        <img src="{{ site.baseurl }}/assets/button/{{ include.project_id }}.png"/>
-      </div>
-    </a>
+    <div class="project-image-wrapper">
+      <img src="{{ site.baseurl }}/assets/button/{{ include.project_id }}.png"/>
+    </div>
   </div>
 </div>
