@@ -1,0 +1,14 @@
+<li>
+  <a href="{{ include.url }}">
+    <strong>{{ include.title }}</strong>
+  </a>
+  ({{ include.year }}) - {{ include.description }}
+
+  {{ include.emojis }}
+
+  {% if include.fa_icons %}
+    {% for icon in include.fa_icons %}
+      <i class="fa {{ icon }}" aria-hidden="true"></i>
+    {% endfor %}
+  {% endif %}
+</li>

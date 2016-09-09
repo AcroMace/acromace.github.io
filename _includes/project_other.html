@@ -4,10 +4,17 @@
       <h1>Other projects</h1>
     </div>
     <ul>
-      <li><a href="https://github.com/AcroMace/brainfoge"><strong>Brainfoge</strong></a> (2016) - BF interpreter written in Dogescript</li>
-      <li><a href="https://github.com/AcroMace/slack-roulettebot"><strong>slack-roulettebot</strong></a> (2015) - A Slack bot for playing Chatroulette with your team members</li>
-      <li><a href="https://github.com/AcroMace/chrome-startup-page"><strong>Chrome new tab page</strong></a> (2014) - A personal new tab page for Chrome</li>
-      <li><a href="https://github.com/AcroMace/lines-of-disapproval"><strong>Lines of Disapproval</strong></a> (2014) - Send the look of disapproval and other line emoticons from Kik</li>
+      {% assign brainfoge-icons = "fa-smile-o,fa-github" | split: "," %}
+      {% include project_other_row.html url="https://github.com/AcroMace/brainfoge" year="2016" title="Brainfoge" description="BF interpreter written in Dogescript" emojis="🐶" fa_icons=brainfoge-icons %}
+
+      {% assign slack-roulettebot-icons = "fa-comments-o,fa-slack,fa-github" | split: "," %}
+      {% include project_other_row.html url="https://github.com/AcroMace/slack-roulettebot" year="2015" title="slack-roulettebot" description="A Slack bot for playing Chatroulette with your team members" fa_icons=slack-roulettebot-icons %}
+
+      {% assign chrome-startup-page-icons = "fa-chrome,fa-github" | split: "," %}
+      {% include project_other_row.html url="https://github.com/AcroMace/chrome-startup-page" year="2014" title="Chrome new tab page" description="A personal new tab page for Chrome" fa_icons=chrome-startup-page-icons %}
+
+      {% assign lines-of-disapproval-icons = "fa-comments-o,fa-github" | split: "," %}
+      {% include project_other_row.html url="https://github.com/AcroMace/lines-of-disapproval" year="2014" title="Lines of Disapproval" description="Send the look of disapproval and other line emoticons from Kik" fa_icons=lines-of-disapproval-icons %}
     </ul>
   </div>
 </div>
