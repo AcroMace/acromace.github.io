@@ -4,7 +4,6 @@ html, body {
 }
 
 body, p {
-	font-weight: 300;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -230,8 +229,6 @@ hr {
 .description p, li, blockquote {
 	margin-top: 15px;
 	margin-bottom: 15px;
-
-	font-weight: 300;
 	font-size: 1.2em;
 }
 
@@ -250,12 +247,14 @@ hr {
 	margin-top: 20px;
 }
 
+.call-to-action-buttons a {
+	text-decoration: none;
+}
+
 .btn-cta {
+	font-weight: bold;
 	padding-left: 16px;
 	padding-right: 16px;
-
-	/* Thick letters */
-	font-weight: bold;
 	border: none;
 }
 
