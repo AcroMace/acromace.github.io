@@ -13,43 +13,39 @@
       <p>{{ include.description_long | markdownify }}</p>
       <div class="call-to-action-buttons">
       {% if include.launch_page_link %}
-        <div>
-          <a href="{{ include.launch_page_link }}">
-            <img src="/assets/button/launch-page.png"
-              srcset="/assets/button/launch-page.png 1x, /assets/button/launch-page@2x.png 2x">
-          </a>
-        </div>
+        <a href="{{ include.launch_page_link }}">
+          <span type="button" class="btn btn-default btn-cta">
+            LAUNCH PAGE
+          </span>
+        </a>
       {% endif %}
       {% if include.app_store_link %}
-        <div>
-          <a href="{{ include.app_store_link }}">
-            <img class="app-store-icon" src="/assets/button/app-store.svg"/>
-          </a>
-        </div>
+        <a href="{{ include.app_store_link }}">
+          <span type="button" class="btn btn-default btn-cta">
+            APP STORE
+          </span>
+        </a>
       {% endif %}
       {% if include.github_link %}
-        <div>
-          <a href="{{ include.github_link }}">
-            <img src="/assets/button/show-source.png"
-              srcset="/assets/button/show-source.png 1x, /assets/button/show-source@2x.png 2x">
-          </a>
-        </div>
+        <a href="{{ include.github_link }}">
+          <span type="button" class="btn btn-default btn-cta">
+            GITHUB
+          </span>
+        </a>
       {% endif %}
       {% if include.product_hunt_link %}
-        <div>
-          <a href="{{ include.product_hunt_link }}">
-            <img src="/assets/button/product-hunt.png"
-              srcset="/assets/button/product-hunt.png 1x, /assets/button/product-hunt@2x.png 2x">
-          </a>
-        </div>
+        <a href="{{ include.product_hunt_link }}">
+          <span type="button" class="btn btn-default btn-cta">
+            PRODUCT HUNT
+          </span>
+        </a>
       {% endif %}
       {% if include.blog_post_link %}
-        <div>
-          <a href="{{ include.blog_post_link }}">
-            <img src="/assets/button/blog-post.png"
-              srcset="/assets/button/blog-post.png 1x, /assets/button/blog-post@2x.png 2x">
-          </a>
-        </div>
+        <a href="{{ include.blog_post_link }}">
+          <span type="button" class="btn btn-default btn-cta">
+            BLOG POST
+          </span>
+        </a>
       {% endif %}
       </div>
     </div>

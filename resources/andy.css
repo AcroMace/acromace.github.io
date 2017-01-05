@@ -128,15 +128,15 @@ hr {
 	background-color: #64B5F6;
 }
 
-#project-eggs-break-fast .project-image-wrapper {
-	background-color: #2c3e50;
+#project-narcissus .btn-cta {
+	color: #2196F3;
 }
 
 #project-receptionkit .project-image-wrapper {
 	background-color: #B71C1C;
 }
 
-#project-receptionkit a {
+#project-receptionkit .btn-cta, #project-receptionkit a {
 	color: #B71C1C;
 }
 
@@ -144,16 +144,40 @@ hr {
 	background-color: #FDD835;
 }
 
+#project-brainfoge .btn-cta {
+	color: #F57F17;
+}
+
 #project-quizzily .project-image-wrapper {
 	background-color: #00796b;
+}
+
+#project-quizzily .btn-cta {
+	color: #00796b;
+}
+
+#project-eggs-break-fast .project-image-wrapper {
+	background-color: #2c3e50;
+}
+
+#project-eggs-break-fast .btn-cta {
+	color: #2c3e50;
 }
 
 #project-bett .project-image-wrapper {
 	background-color: #64B5F6;
 }
 
+#project-bett .btn-cta {
+	color: #2196F3;
+}
+
 #project-whistlesheet .project-image-wrapper {
 	background-color: #2c3e50;
+}
+
+#project-whistlesheet .btn-cta {
+	color: #2c3e50;
 }
 
 #project-kuiz .project-image-wrapper {
@@ -164,18 +188,32 @@ hr {
 	background-color: #00796b;
 }
 
+#project-math-magician .btn-cta {
+	color: #00796b;
+}
+
 #project-hyper-halo .project-image-wrapper {
 	background-color: #0D47A1;
 }
 
+#project-hyper-halo .btn-cta {
+	color: #0D47A1;
+}
+
 #project-other {
 	padding: 1em;
+	padding-left: 0;
 	padding-right: 2em;
 	padding-bottom: 2em;
 }
 
+#project-other ul {
+	padding-left: 32px;
+	list-style-type: none;
+}
+
 #project-other a {
-	color: #2980b9;
+	color: #1976D2;
 }
 
 
@@ -212,9 +250,13 @@ hr {
 	margin-top: 20px;
 }
 
-.call-to-action-buttons div {
-	/* Force the buttons to be on one line, if possible */
-	display: inline-block;
+.btn-cta {
+	padding-left: 16px;
+	padding-right: 16px;
+
+	/* Thick letters */
+	font-weight: bold;
+	border: none;
 }
 
 /* Media in project descriptions */
