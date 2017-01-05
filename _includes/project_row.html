@@ -1,5 +1,12 @@
-<div class="project col-xs-12" id="project-{{ include.project_id }}">
-  <div class="col-xs-12 col-sm-6 {% if include.align == 'left' %} col-md-push-6 {% endif %}">
+<div class="col-xs-12 col-sm-6">
+  <div class="col-xs-12 project card-shadow" id="project-{{ include.project_id }}">
+
+    <!-- Header image -->
+    <div class="project-image-wrapper">
+      <img src="{{ site.baseurl }}/assets/button/{{ include.project_id }}.png"/>
+    </div>
+
+    <!-- Description text -->
     <div class="description">
       <h1>{{ include.title }}</h1>
       <h5><em>{{ include.year }}</em> — {{ include.description_brief }}</h5>
@@ -45,11 +52,6 @@
         </div>
       {% endif %}
       </div>
-    </div>
-  </div>
-  <div class="col-xs-12 col-sm-6 {% if include.align == 'left' %} col-md-pull-6 {% endif %}">
-    <div class="project-image-wrapper">
-      <img src="{{ site.baseurl }}/assets/button/{{ include.project_id }}.png"/>
     </div>
   </div>
 </div>

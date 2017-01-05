@@ -1,6 +1,6 @@
-html {
+html, body {
 	/* Gets rid of the white line at the bottom of the page */
-	background-color: #2e3436;
+	background-color: #e2e1e0;
 }
 
 body, p {
@@ -19,6 +19,10 @@ hr {
 	margin-bottom: 30px;
 }
 
+.card-shadow {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
 
 /* Header */
 
@@ -43,7 +47,7 @@ hr {
 	color: #eeeeec;
 	background-color: #204a87;
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 0;
 }
 
 .jumbotron h1 {
@@ -63,7 +67,8 @@ hr {
 .contact {
 	width: 100%;
 	background-color: white;
-	padding-bottom: 10px;
+	position: relative;
+	padding: 0.6em;
 }
 
 .contact p {
@@ -74,6 +79,11 @@ hr {
 	display: inline;
 }
 
+.contact .container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .btn-contact {
 	border: 0;
 	width: 100%;
@@ -82,75 +92,102 @@ hr {
 
 /* Front page projects */
 
-.project {
-	position: relative;
-	box-shadow: 0 0 1px black;
-	-moz-box-shadow: 0 0 1px black;
-	-webkit-box-shadow: 0 0 1px black;
-}
-
-.project:first-child {
-	box-shadow: 0 0;
-	-moz-box-shadow: 0 0;
-	-webkit-box-shadow: 0 0;
+.projects {
+	background-color: #e2e1e0;
+	padding-bottom: 2em;
 }
 
 .project {
-	color: #eeeeec;
+	color: black;
+	background-color: white;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 2em;
+}
+
+.project:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.project-col {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.project-image-wrapper {
+	background-color: gray;
 }
 
 .project-image-wrapper img {
+	object-fit: cover;
+	height: 100%;
 	width: 100%;
 }
 
-#project-narcissus {
-	background-color: #2980b9;
+#project-narcissus .project-image-wrapper {
+	background-color: #64B5F6;
 }
 
-#project-eggs-break-fast {
+#project-eggs-break-fast .project-image-wrapper {
 	background-color: #2c3e50;
 }
 
-#project-receptionkit {
-	background-color: #2c3e50;
+#project-receptionkit .project-image-wrapper {
+	background-color: #B71C1C;
 }
 
-#project-quizzily {
+#project-receptionkit a {
+	color: #B71C1C;
+}
+
+#project-brainfoge .project-image-wrapper {
+	background-color: #FDD835;
+}
+
+#project-quizzily .project-image-wrapper {
 	background-color: #00796b;
 }
 
-#project-bett {
-	background-color: #2980b9;
+#project-bett .project-image-wrapper {
+	background-color: #64B5F6;
 }
 
-#project-whistlesheet {
+#project-whistlesheet .project-image-wrapper {
 	background-color: #2c3e50;
 }
 
-#project-kuiz {
-	background-color: #2980b9;
+#project-kuiz .project-image-wrapper {
+	background-color: #1565C0;
 }
 
-#project-math-magician {
+#project-math-magician .project-image-wrapper {
 	background-color: #00796b;
 }
 
-#project-hyper-halo {
-	background-color: #2c3e50;
+#project-hyper-halo .project-image-wrapper {
+	background-color: #0D47A1;
 }
 
 #project-other {
-	background-color: #2980b9;
-	padding-top: 1em;
+	padding: 1em;
+	padding-right: 2em;
 	padding-bottom: 2em;
 }
 
 #project-other a {
-	color: #ecf0f1;
+	color: #2980b9;
 }
 
 
 /* Project descriptions */
+
+.description {
+	padding: 2em;
+}
+
+.description h1 {
+	margin: 0;
+}
 
 .description p, li, blockquote {
 	margin-top: 15px;
@@ -173,41 +210,12 @@ hr {
 
 .call-to-action-buttons {
 	margin-top: 20px;
-	margin-bottom: 20px;
 }
 
 .call-to-action-buttons div {
 	/* Force the buttons to be on one line, if possible */
 	display: inline-block;
 }
-
-
-/* Fix for floating images */
-/* Fix the image to the bottom of the container */
-
-/* Boostrap small size */
-@media(min-width:768px) {
-	.projects .project-image-wrapper {
-		height: 260px;
-		min-height: 260px;
-	}
-	.project-image-wrapper img {
-		position: absolute;
-		bottom: 0;
-	}
-}
-
-/* Boostrap Medium size is 992 */
-@media(min-width: 1200px) {
-	.projects .project-image-wrapper {
-		height: 100%;
-		min-height: 100%;
-	}
-	.project-image-wrapper img {
-		position: relative;
-	}
-}
-
 
 /* Media in project descriptions */
 
