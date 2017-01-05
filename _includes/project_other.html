@@ -4,6 +4,12 @@
       <h1>Other projects</h1>
     </div>
     <ul>
+      {% assign member-the-elections-icons = "fa-comments-o,fa-smile-o,fa-github" | split: "," %}
+      {% include project_other_row.html url="https://github.com/AcroMace/member-the-elections" year="2016" title="member the elections?" description="Chrome extension made for TerribleHack 2016 — Replaces your Facebook and Twitter feed with r/the_donald posts" fa_icons=member-the-elections-icons %}
+
+      {% assign urchaperone-icons = "fa-apple,fa-car,fa-github" | split: "," %}
+      {% include project_other_row.html url="https://github.com/AcroMace/UrChaperone" year="2016" title="UrChaperone" description="iOS app made for Hack the North 2016 — Call an Uber home from a push notification when you leave the house" fa_icons=urchaperone-icons %}
+
       {% assign brainfoge-icons = "fa-smile-o,fa-github" | split: "," %}
       {% include project_other_row.html url="https://github.com/AcroMace/brainfoge" year="2016" title="Brainfoge" description="BF interpreter written in Dogescript" emojis="🐶" fa_icons=brainfoge-icons %}
 
