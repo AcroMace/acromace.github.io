@@ -123,6 +123,22 @@ hr {
 	width: 100%;
 }
 
+#project-dreambig .project-image-wrapper {
+	background-color: #66BB6A;
+}
+
+#project-dreambig .btn-cta {
+	color: #4CAF50;
+}
+
+#project-remembertoblink .project-image-wrapper {
+	background-color: #B71C1C;
+}
+
+#project-remembertoblink a, #project-remembertoblink .btn-cta {
+	color: #B71C1C;
+}
+
 #project-narcissus .project-image-wrapper {
 	background-color: #64B5F6;
 }
