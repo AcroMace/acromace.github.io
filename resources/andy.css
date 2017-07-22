@@ -123,6 +123,14 @@ hr {
 	width: 100%;
 }
 
+#project-babelcamera .project-image-wrapper {
+	background-color: #64B5F6;
+}
+
+#project-babelcamera .btn-cta {
+	color: #2196F3;
+}
+
 #project-dreambig .project-image-wrapper {
 	background-color: #FDD835;
 }
