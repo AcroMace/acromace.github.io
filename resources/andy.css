@@ -114,6 +114,32 @@ hr {
 	width: 100%;
 }
 
+.work-image-wrapper {
+	display: flex;
+	background-color: gray;
+	align-items: center;
+	justify-content: center;
+	min-height: 14em;
+	padding: 4em;
+}
+
+.work-image-wrapper img {
+	height: auto;
+	max-width: 100%;
+}
+
+#work-facebook .work-image-wrapper {
+	background-color: #365899;
+}
+
+#work-facebook .btn-cta {
+	color: #365899;
+}
+
+#work-facebook .work-image-wrapper img {
+	max-height: 4em;
+}
+
 #project-babelcamera .project-image-wrapper {
 	background-color: #64B5F6;
 }
@@ -154,12 +180,44 @@ hr {
 	color: #B71C1C;
 }
 
+#work-whatsapp .work-image-wrapper {
+	background-color: #0f5e54;
+}
+
+#work-whatsapp .btn-cta {
+	color: #0f5e54;
+}
+
+#work-whatsapp .work-image-wrapper img {
+	max-height: 8em;
+}
+
 #project-brainfoge .project-image-wrapper {
 	background-color: #FDD835;
 }
 
 #project-brainfoge .btn-cta {
 	color: #F57F17;
+}
+
+#work-coursera .work-image-wrapper {
+	background-color: #4A89DC;
+}
+
+#work-coursera .btn-cta {
+	color: #4A89DC;
+}
+
+#work-theleague .work-image-wrapper {
+	background-color: #1a1a1a;
+}
+
+#work-theleague .btn-cta {
+	color: #1a1a1a;
+}
+
+#work-theleague .work-image-wrapper img {
+	max-height: 6em;
 }
 
 #project-quizzily .project-image-wrapper {
@@ -176,6 +234,14 @@ hr {
 
 #project-eggs-break-fast .btn-cta {
 	color: #2c3e50;
+}
+
+#work-smooch .work-image-wrapper {
+	background-color: #a347b7;
+}
+
+#work-smooch .btn-cta {
+	color: #a347b7;
 }
 
 #project-bett .project-image-wrapper {
@@ -196,6 +262,18 @@ hr {
 
 #project-kuiz .project-image-wrapper {
 	background-color: #1565C0;
+}
+
+#work-kik .work-image-wrapper {
+	background-color: #5dcd11;
+}
+
+#work-kik .btn-cta {
+	color: #5dcd11;
+}
+
+#work-kik .work-image-wrapper img {
+	max-height: 5em;
 }
 
 #project-math-magician .project-image-wrapper {

@@ -1,0 +1,26 @@
+<div class="col-xs-12 col-sm-6">
+  <div class="col-xs-12 project card-shadow" id="work-{{ include.work_id }}">
+
+    <!-- Header image -->
+    <div class="work-image-wrapper">
+      <!-- <img src="{{ site.baseurl }}/assets/button/{{ include.work_id }}.png"/> -->
+      <img src="{{ site.baseurl }}/assets/logo/{{ include.work_id }}.png"/>
+    </div>
+
+    <!-- Description text -->
+    <div class="description">
+      <h1>{{ include.title }}</h1>
+      <h5><em>{{ include.time }}</em> — {{ include.position }}</h5>
+      <p>{{ include.description_long | markdownify }}</p>
+      <div class="call-to-action-buttons">
+      {% if include.website_link %}
+        <a href="{{ include.website_link }}">
+          <span type="button" class="btn btn-default btn-cta">
+            WEBSITE
+          </span>
+        </a>
+      {% endif %}
+    </div>
+    </div>
+  </div>
+</div>
