@@ -27,18 +27,19 @@ hr {
 
 .header {
 	color: #eeeeec;
-	background-color: #204a87;
+	background-color: #01579B;
 	text-align: center;
 	margin-bottom: 0;
 	padding: 1em;
 }
 
 #site-title {
-	font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 4em;
-	font-weight: 400;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 	letter-spacing: -2px;
+	margin-bottom: 0;
+	text-transform: uppercase;
 }
 
 
@@ -63,6 +64,7 @@ hr {
 }
 
 .contact i {
+	color: #004e8b;
 	display: inline-block;
 	vertical-align: middle;
 }
