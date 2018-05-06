@@ -119,8 +119,27 @@ hr {
 	background-color: gray;
 	align-items: center;
 	justify-content: center;
-	min-height: 14em;
+	height: 12em;
 	padding: 4em;
+}
+
+
+@media (min-width: 768px) {
+  .work-image-wrapper {
+    height: 155px;
+  }
+}
+
+@media (min-width: 992px) {
+  .work-image-wrapper {
+    height: 205px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .work-image-wrapper {
+    height: 250px;
+  }
 }
 
 .work-image-wrapper img {
