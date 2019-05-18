@@ -46,6 +46,7 @@ hr {
 /* Contact icons */
 
 .contact {
+	justify-content: center;
 	width: 100%;
 	background-color: white;
 	position: relative;
