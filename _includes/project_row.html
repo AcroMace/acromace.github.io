@@ -1,4 +1,4 @@
-<div class="col-xs-12 col-sm-6">
+<div class="col-xs-12 col-md-6 col-lg-4">
   <div class="col-xs-12 project card-shadow" id="project-{{ include.project_id }}">
 
     <!-- Header image -->
@@ -8,8 +8,8 @@
 
     <!-- Description text -->
     <div class="description">
-      <h1>{{ include.title }}</h1>
-      <h5><em>{{ include.year }}</em> — {{ include.description_brief }}</h5>
+      <h2>{{ include.title }}</h2>
+      <p class="description-time"><em>{{ include.year }} — {{ include.description_brief }}</em></p>
       <p>{{ include.description_long | markdownify }}</p>
       <div class="call-to-action-buttons">
       {% if include.launch_page_link %}
