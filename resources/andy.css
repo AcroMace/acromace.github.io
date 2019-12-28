@@ -406,9 +406,28 @@ hr {
 	border: none;
 }
 
+/* Posts page */
+
+.post h1 {
+	margin-top: 2em;
+}
+
+.post p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.post img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	padding: 1em;
+}
+
 /* Media in project descriptions */
 
-.phone-screenshot {
+.post .phone-screenshot {
 	width: 80%;
 	max-width: 320px;
 }
@@ -420,10 +439,6 @@ hr {
 	width: 70%;
 	max-width: 300px;
 	color: #888a85;
-}
-
-.image-landscape {
-	width: 90%;
 }
 
 .image-landscape-caption {
