@@ -430,6 +430,10 @@ hr {
 	padding: 1em;
 }
 
+.post a {
+	color: #1565c0;
+}
+
 /* Media in project descriptions */
 
 .post .phone-screenshot {
