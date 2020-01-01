@@ -3,9 +3,13 @@ title: New Grad Techie's Guide to US Retirement Accounts
 permalink: /new-grad-techie-us-retirement-accounts
 ---
 
-This is a quick guide to how retirement accounts work in the US in the perspective of a new grad in tech. As a quick disclaimer, I am not an accountant, financial advisor, nor a lawyer. I’ve just spent a bunch of time researching this as someone who didn't know anything while moving from Canada. You should consult financial experts (aka not me) when making financial decisions.
+This is a quick guide to how retirement accounts work in the US from the perspective of a new grad in tech. As a quick disclaimer, I am not an accountant, financial advisor, nor a lawyer. I’ve just spent a bunch of time researching this as someone who didn't know anything while moving from Canada. You should consult financial experts (aka not me) when making financial decisions.
 
 *Last updated: January 1, 2020 (using 2020 contribution limits)*
+
+[<img src="https://imgs.xkcd.com/comics/personal_data.png"/>](https://xkcd.com/1971/)
+
+<div class="image-center-caption"><a href="https://xkcd.com/1971/">XKCD: Personal Data</a></div>
 
 
 ## Investment account types
