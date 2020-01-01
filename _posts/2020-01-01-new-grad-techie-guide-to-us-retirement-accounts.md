@@ -94,7 +94,7 @@ Here's a somewhat convoluted diagram to show you ways in which you can transfer 
 
 ![Retirement accounts flow chart](/assets/img/new_grad_techie_guide_to_us_retirement_accounts/flow_chart.png)
 
-<div class="image-landscape-caption">Red arrows are ones where you must pay taxes in order to move money in that direction (i.e. pre-tax to post-tax)</div>
+<div class="image-center-caption">Red arrows are ones where you must pay taxes in order to move money in that direction (i.e. pre-tax to post-tax)</div>
 
 If you're planning to [FIRE (Financial Independence, Retire Early)](https://www.investopedia.com/terms/f/financial-independence-retire-early-fire.asp), then you can use a [Roth conversion ladder](https://www.madfientist.com/how-to-access-retirement-funds-early/) to slowly funnel your pre-tax retirement funds to Roth accounts while minimizing tax paid.
 

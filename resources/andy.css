@@ -450,6 +450,14 @@ hr {
 	color: #888a85;
 }
 
+.image-center-caption {
+	text-align: center;
+	font-style: italic;
+	margin-left: auto;
+	margin-right: auto;
+	color: #888a85;
+}
+
 .image-landscape-caption {
 	font-style: italic;
 	margin-left: 5%;
