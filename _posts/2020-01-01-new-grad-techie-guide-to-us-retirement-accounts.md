@@ -14,7 +14,7 @@ This is a quick guide to how retirement accounts work in the US in the perspecti
 
 The Roth IRA lets you deposit up to [$6k in cash](https://www.irs.gov/retirement-plans/amount-of-roth-ira-contributions-that-you-can-make-for-2019) into the account every year. In [5 years](https://www.investopedia.com/ask/answers/05/waitingperiodroth.asp), you’re able to withdraw the original $6k tax free [1]. All interest on the invested amount can also be withdrawn tax free when you reach 59.5 years old.
 
-Your income is likely too high to make a full direct contribution to the Roth IRA (over $124k a year), and also probably [too high to deduct income through a Traditional IRA](https://www.irs.gov/retirement-plans/plan-participant-employee/2020-ira-contribution-and-deduction-limits-effect-of-modified-agi-on-deductible-contributions-if-you-are-covered-by-a-retirement-plan-at-work). This means you’d probably want to contribute through a Backdoor Roth IRA.
+Your income is likely too high to make a full direct contribution to the Roth IRA (over $124k a year, including stock and bonuses), and also probably [too high to deduct income through a Traditional IRA](https://www.irs.gov/retirement-plans/plan-participant-employee/2020-ira-contribution-and-deduction-limits-effect-of-modified-agi-on-deductible-contributions-if-you-are-covered-by-a-retirement-plan-at-work). This means you’d probably want to contribute through a Backdoor Roth IRA.
 
 The steps to a [Backdoor Roth IRA](https://www.investopedia.com/terms/b/backdoor-roth-ira.asp) are:
 
@@ -32,7 +32,7 @@ You likely want to open your Roth IRA ASAP even if you mostly focus on funding y
 This retirement account is funded by taking a percentage of your paycheque. You are able to contribute up to [$19.5k in 2020](https://www.irs.gov/newsroom/401k-contribution-limit-increases-to-19500-for-2020-catch-up-limit-rises-to-6500) (it usually goes up a bit each year). Two of the ways to contribute are to pre-tax and Roth accounts. The limit is for the total contributions to these two accounts combined.
 
 - **Pre-tax 401(k)**: This is like putting aside some of your income to earn it later. You save income tax on it now (as if you didn’t earn the income), but then you pay income tax on both your contribution and interest when you withdraw from the account. This is ideal if you think you’ll be paying less taxes when you retire than right now, which is likely as you probably will withdraw less in your retirement than you’re earning right now.
-- **Roth 401(k)**: This is like the Roth IRA, where you’re putting income that’s already taxed into your 401(k). You don’t pay income tax on the contribution nor the interest when you withdraw. This is ideal if you predict you’ll pay MORE taxes when you retire than now. This might be the case if you’re moving to a higher cost of living or a higher income tax area (ex. working in a state with no income tax and low cost of living and then retiring in California).
+- **Roth 401(k)**: This is like the Roth IRA, where you’re putting income that’s already taxed into your 401(k). You don’t pay income tax on the contribution nor the interest when you withdraw. This is ideal if you predict you’ll pay MORE taxes when you retire than now. This might be the case if you’re moving to a higher cost of living or a higher income tax area (ex. working in a state with no income tax and low cost of living and then retiring in SF or NYC).
 
 You likely want to contribute at least as much as what your employer matches.
 
@@ -61,7 +61,7 @@ For example, let’s say you vest $10k worth of stocks. If your income tax is at
 
 Let’s say your $10k of stocks become $12k, and you sell.
 
-- If you sell your stocks within a year of your vest date, then you’ll pay income tax on the gains. So in this case, you’d pay income tax on the $2k.
+- If you sell your stocks within a year of your vest date, then you’ll pay income tax on the gains. So in this case, you’d pay additional income tax on just the $2k.
 - If you sell your stocks after a year of your vest date, you’ll pay long-term capital gains tax, which is likely lower than your income tax, most likely 0% or 15%.
 
 If you sell your stocks immediately after they vest, then you won’t be paying (or you’ll be paying a minimal amount) of capital gains taxes, since there would not be (much) gains on the stock from vest to sell time. It’s helpful to think of vests as your employer immediately paying you the vesting amount in cash and then you spending all of that cash on purchasing your company’s stocks.
