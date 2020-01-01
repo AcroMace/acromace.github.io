@@ -408,8 +408,13 @@ hr {
 
 /* Posts page */
 
-.post h1 {
+.post .title {
+	padding: 1.2em;
+}
+
+.post h1, .post h2 {
 	margin-top: 2em;
+	margin-bottom: 0.5em;
 }
 
 .post p {
