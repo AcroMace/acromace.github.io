@@ -139,6 +139,14 @@ hr {
 	padding-bottom: 1em;
 }
 
+#post-lasercutting-2019 .post-emojis-wrapper {
+	background-color: #8d6e63;
+}
+
+#post-lasercutting-2019 .btn-cta, #post-lasercutting-2019 a {
+	color: #6d4c41;
+}
+
 #post-canadian-guide-to-us-retirement-account .post-emojis-wrapper {
 	background-color: #b00020;
 }
