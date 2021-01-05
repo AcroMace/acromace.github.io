@@ -139,6 +139,14 @@ hr {
 	padding-bottom: 1em;
 }
 
+#post-less-degenerate-options .post-emojis-wrapper {
+	background-color: #1abc9c;
+}
+
+#post-less-degenerate-options .btn-cta, #post-lasercutting-2019 a {
+	color: #16a085;
+}
+
 #post-lasercutting-2019 .post-emojis-wrapper {
 	background-color: #8d6e63;
 }
