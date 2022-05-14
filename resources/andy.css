@@ -171,15 +171,15 @@ hr {
 	color: #85bb65;
 }
 
-#work-facebook-fte .work-image-wrapper {
+#work-meta .work-image-wrapper {
 	background-color: #1877f2;
 }
 
-#work-facebook-fte a, #work-facebook-fte .btn-cta {
+#work-meta a, #work-meta .btn-cta {
 	color: #1877f2;
 }
 
-#work-facebook-fte .work-image-wrapper img {
+#work-meta .work-image-wrapper img {
 	max-height: 4em;
 }
 
