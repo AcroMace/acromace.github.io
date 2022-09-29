@@ -139,6 +139,18 @@ hr {
 	padding-bottom: 1em;
 }
 
+#work-apple .work-image-wrapper {
+	background-color: #1a1a1a;
+}
+
+#work-apple a, #work-apple .btn-cta {
+	color: #1a1a1a;
+}
+
+#work-apple .work-image-wrapper img {
+	max-height: 4em;
+}
+
 #post-less-degenerate-options .post-emojis-wrapper {
 	background-color: #1abc9c;
 }
