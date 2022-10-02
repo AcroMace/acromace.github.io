@@ -139,6 +139,14 @@ hr {
 	padding-bottom: 1em;
 }
 
+#project-drumhead .project-image-wrapper {
+	background-color: #16a085;
+}
+
+#project-drumhead a, #project-drumhead .btn-cta {
+	color: #16a085;
+}
+
 #work-apple .work-image-wrapper {
 	background-color: #1a1a1a;
 }
