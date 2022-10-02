@@ -4,6 +4,9 @@
       <h1>Other projects</h1>
     </div>
     <ul>
+      {% assign goraid-icons = "fa-apple,fa-github" | split: "," %}
+      {% include project_other_row.html url="https://github.com/AcroMace/GoRaid" year="2020" title="GoRaid" description="iOS app made with SwiftUI to help with Pokemon Go raids" fa_icons=goraid-icons %}
+
       {% assign pointerapp-icons = "fa-android,fa-map-marker,fa-github" | split: "," %}
       {% include project_other_row.html url="https://github.com/PointerTeam/PointerApp" year="2018" title="Pointer app" description="Supervised a [Side Project Club](https://www.facebook.com/sideprojectclub/) team that created an Android app that lets you put messages on a map and get messages near you" fa_icons=pointerapp-icons %}
 
