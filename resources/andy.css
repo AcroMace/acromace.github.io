@@ -139,6 +139,14 @@ hr {
 	padding-bottom: 1em;
 }
 
+#project-mindpalace .project-image-wrapper {
+	background-color: #F5D852;
+}
+
+#project-mindpalace a, #project-mindpalace .btn-cta {
+	color: #F5D852;
+}
+
 #project-drumhead .project-image-wrapper {
 	background-color: #16a085;
 }
@@ -216,11 +224,11 @@ hr {
 }
 
 #project-randomloveletter .project-image-wrapper {
-	background-color: #FDD835;
+	background-color: #fab1a0;
 }
 
 #project-randomloveletter a, #project-randomloveletter .btn-cta {
-	color: #F57F17;
+	color: #fab1a0;
 }
 
 #project-melodrama .project-image-wrapper {
