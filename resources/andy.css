@@ -139,6 +139,14 @@ hr {
 	padding-bottom: 1em;
 }
 
+#project-theramin .project-image-wrapper {
+	background-color: #9b59b6;
+}
+
+#project-theramin a, #project-theramin .btn-cta {
+	color: #9b59b6;
+}
+
 #project-mindpalace .project-image-wrapper {
 	background-color: #F5D852;
 }
