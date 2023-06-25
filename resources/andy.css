@@ -139,6 +139,22 @@ hr {
 	padding-bottom: 1em;
 }
 
+#project-reparo .project-image-wrapper {
+	background-color: #8d6e63;
+}
+
+#project-reparo a, #project-reparo .btn-cta {
+	color: #8d6e63;
+}
+
+#project-dreambooth .project-image-wrapper {
+	background-color: #82ccdd;
+}
+
+#project-dreambooth a, #project-dreambooth .btn-cta {
+	color: #60a3bc;
+}
+
 #project-theremin .project-image-wrapper {
 	background-color: #9b59b6;
 }
