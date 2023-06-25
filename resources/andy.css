@@ -139,12 +139,20 @@ hr {
 	padding-bottom: 1em;
 }
 
+#project-blackcomb .project-image-wrapper {
+	background-color: #3c6382;
+}
+
+#project-blackcomb a, #project-blackcomb .btn-cta {
+	color: #0a3d62;
+}
+
 #project-reparo .project-image-wrapper {
-	background-color: #8d6e63;
+	background-color: #f6b93b;
 }
 
 #project-reparo a, #project-reparo .btn-cta {
-	color: #8d6e63;
+	color: #e58e26;
 }
 
 #project-dreambooth .project-image-wrapper {
