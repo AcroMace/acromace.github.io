@@ -147,6 +147,14 @@ hr {
 	color: #0a3d62;
 }
 
+#project-empathy-synthesizer .project-image-wrapper {
+	background-color: #16a085;
+}
+
+#project-empathy-synthesizer a, #project-empathy-synthesizer .btn-cta {
+	color: #16a085;
+}
+
 #project-reparo .project-image-wrapper {
 	background-color: #f6b93b;
 }
