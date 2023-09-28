@@ -139,6 +139,38 @@ hr {
 	padding-bottom: 1em;
 }
 
+#project-blackcomb .project-image-wrapper {
+	background-color: #3c6382;
+}
+
+#project-blackcomb a, #project-blackcomb .btn-cta {
+	color: #0a3d62;
+}
+
+#project-empathy-synthesizer .project-image-wrapper {
+	background-color: #16a085;
+}
+
+#project-empathy-synthesizer a, #project-empathy-synthesizer .btn-cta {
+	color: #16a085;
+}
+
+#project-reparo .project-image-wrapper {
+	background-color: #f6b93b;
+}
+
+#project-reparo a, #project-reparo .btn-cta {
+	color: #e58e26;
+}
+
+#project-dreambooth .project-image-wrapper {
+	background-color: #82ccdd;
+}
+
+#project-dreambooth a, #project-dreambooth .btn-cta {
+	color: #60a3bc;
+}
+
 #project-theremin .project-image-wrapper {
 	background-color: #9b59b6;
 }
