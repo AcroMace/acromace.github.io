@@ -139,6 +139,22 @@ hr {
 	padding-bottom: 1em;
 }
 
+#project-multiverse-portals .project-image-wrapper {
+	background-color: #ffcccc;
+}
+
+#project-multiverse-portals a, #project-multiverse-portals .btn-cta {
+	color: #ffb8b8;
+}
+
+#project-empathy-synthesizer-vision-pro .project-image-wrapper {
+	background-color: #ffda79;
+}
+
+#project-empathy-synthesizer-vision-pro a, #project-empathy-synthesizer-vision-pro .btn-cta {
+	color: #ccae62;
+}
+
 #project-blackcomb .project-image-wrapper {
 	background-color: #3c6382;
 }
