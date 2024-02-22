@@ -139,6 +139,14 @@ hr {
 	padding-bottom: 1em;
 }
 
+#project-silica-valley .project-image-wrapper {
+	background-color: #95afc0;
+}
+
+#project-silica-valley a, #project-silica-valley .btn-cta {
+	color: #535c68;
+}
+
 #project-multiverse-portals .project-image-wrapper {
 	background-color: #ffcccc;
 }
