@@ -139,6 +139,22 @@ hr {
 	padding-bottom: 1em;
 }
 
+#project-quidditch .project-image-wrapper {
+	background-color: #f7d794;
+}
+
+#project-quidditch a, #project-quidditch .btn-cta {
+	color: #f5cd79;
+}
+
+#project-trashposting .project-image-wrapper {
+	background-color: #ea8685;
+}
+
+#project-trashposting a, #project-trashposting .btn-cta {
+	color: #c44569;
+}
+
 #project-silica-valley .project-image-wrapper {
 	background-color: #95afc0;
 }
