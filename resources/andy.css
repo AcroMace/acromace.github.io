@@ -139,6 +139,22 @@ hr {
 	padding-bottom: 1em;
 }
 
+#project-artist-unknown .project-image-wrapper {
+	background-color: #82ccdd;
+}
+
+#project-artist-unknown a, #project-artist-unknown .btn-cta {
+	color: #60a3bc;
+}
+
+#project-solo-leveling .project-image-wrapper {
+	background-color: #487eb0;
+}
+
+#project-solo-leveling a, #project-solo-leveling .btn-cta {
+	color: #40739e;
+}
+
 #project-quidditch .project-image-wrapper {
 	background-color: #f7d794;
 }
