@@ -139,6 +139,14 @@ hr {
 	padding-bottom: 1em;
 }
 
+#project-toucant .project-image-wrapper {
+	background-color: #1abc9c;
+}
+
+#project-toucant a, #project-toucant .btn-cta {
+	color: #16a085;
+}
+
 #project-artist-unknown .project-image-wrapper {
 	background-color: #82ccdd;
 }
