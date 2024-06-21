@@ -139,6 +139,14 @@ hr {
 	padding-bottom: 1em;
 }
 
+#project-drumbeets .project-image-wrapper {
+	background-color: #ED4C67;
+}
+
+#project-drumbeets a, #project-drumbeets .btn-cta {
+	color: #B53471;
+}
+
 #project-toucant .project-image-wrapper {
 	background-color: #1abc9c;
 }
